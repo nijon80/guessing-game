@@ -1,0 +1,33 @@
+
+body{
+   background-color:lightblue;
+   display:flex;
+   justify-content :center;
+   height:100%;
+   font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    background-color: aliceblue;
+    padding: 40px;
+    text-align: center;
+    width: 500px;
+    border-radius: 10px;
+}
+
+button{
+background-color: blue;
+width: 70%;
+padding: 12px;
+border-radius: 20px;
+color: aliceblue;
+cursor: pointer;
+
+}
+button:hover{
+    background-color: aliceblue;
+    color: blue;
+}
+#guess{
+    width: 50%;
+    height: 10%;
+}
