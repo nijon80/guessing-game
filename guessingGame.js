@@ -7,7 +7,7 @@ const guess=inputValue.value;
 const answer= document.getElementById("answer");
     while (attempt > 0) {
    if(guess==randomNumber){
-    answer.innerHTML="You got It";
+    answer.innerHTML="You got It! You are really smart.";
     answer.style.color="green";
     attempt=0;
     answer.style.color="green";
